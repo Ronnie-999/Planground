@@ -1,3 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import differential_evolution
+import ifcopenshell
+
+
+
+
 # Objective function to maximize area of an irregular quadrilateral
 def irregular_area(params):
     # Unpack points
